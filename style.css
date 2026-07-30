@@ -1,1 +1,9 @@
-
+.message {
+    background: #fff0f5;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 1.7;
+    font-size: 18px;
+}
