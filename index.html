@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday Sara ❤️</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    background:linear-gradient(135deg,#ff9fc5,#ffd6e7,#fff0f6);
+    font-family:'Georgia',serif;
+    overflow-x:hidden;
+    color:#7a1f45;
+}
+
+/* floating hearts */
+
+.heart{
+    position:fixed;
+    bottom:-20px;
+    animation:rise 8s linear infinite;
+    font-size:30px;
+    z-index:1;
+}
+
+@keyframes rise{
+    0%{
+        transform:translateY(0) rotate(0);
+        opacity:1;
+    }
+    100%{
+        transform:translateY(-110vh) rotate(360deg);
+        opacity:0;
+    }
+}
+
+/* opening */
+
+.hero{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    flex-direction:column;
+    animation:fade 2s;
+}
+
+.hero h1{
+    font-size:55px;
+    color:#fff;
+    text-shadow:0 0 20px #ff4081;
+}
+
+.hero p{
+    color:white;
+    font-size:22px;
+    margin-top:15px;
+}
+
+@keyframes fade{
+    from{
+        opacity:0;
+        transform:scale(.5);
+    }
+    to{
+        opacity:1;
+        transform:scale(1);
+    }
+}
+
+
+/* photos */
+
+.gallery{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.gallery h2{
+    color:#e91e63;
+    font-size:35px;
+}
+
+.photos{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.photos img{
+    width:280px;
+    height:350px;
+    object-fit:cover;
+    border-radius:25px;
+    box-shadow:0 0 30px rgba(233,30,99,.4);
+    animation:show 3s infinite alternate;
+}
+
+@keyframes show{
+    from{
+        opacity:.7;
+        transform:scale(1);
+    }<section class="gallery">
+
+<h2>Our Memories ❤️</h2>
+
+<div class="photos">
+
+<img src="photo1.jpg" alt="Childhood Photo 1">
+
+<img src="photo2.jpg" alt="Childhood Photo 2">
+
+</div>
+
+</section>
+
+
+<section class="message">
+
+<h2>💌 A Message From My Heart</h2>
+
+<p>
+The first time I saw you, I was in 4th grade. I still remember that very first heartfelt glimpse of you and I never imagined that one day you would become such an important part of my life Your presence itself is the greatest gift I could ever ask for.
+</p>
+
+<p>
+Sara, you can’t even imagine how much I love you. Your boy loves you more than he loves himself. I promise I’ll do everything just for you I can give you all the happiness you deserve and ready stand by your side through every moment of life.
+</p>
+
+<p>
+Happy Birthday to the love of my life❤️ I’m sooo sooo grateful to have you in my life. Thank you for being in my part of life🥺.
+</p>
+
+<p>
+I may have taken ChatGPT’s help to create this animation, but every single word here comes straight from the bottom of my heart ❤️
+</p>
+    to{
+        opacity:1;
+        transform:scale(1.08);
+    }
+}<p>
+-with lots of love<br>
+<b>Nawaf💙🩷</b>
+</p>
+
+</section>
+
+
+<section class="music">
+
+<h2>🎵 Khat Song</h2>
+
+<audio controls>
+<source src="khat.mp3" type="audio/mpeg">
+Your browser does not support audio.
+</audio>
+
+</section>
+
+
+<section class="birthday-end">
+
+<h2>🎂 Happy Birthday Sara ❤️</h2>
+
+<p>
+You are one of the most beautiful parts of my life.  
+May your days always be filled with happiness, smiles and endless love 🌸💕
+</p>
+
+<p>
+Forever special to me ❤️
+</p>
+
+</section>
+
+
+<footer>
+<p>Made with lots of love ❤️</p>
+</footer>
+
+
+</body>
+</html>
