@@ -60,26 +60,22 @@ margin-bottom:30px;
 }
 
 button{
-
 padding:15px 35px;
-
 border:none;
-
-border-radius:40px;
-
-background:white;
-
-color:#ff4081;
-
+border-radius:50px;
+background:linear-gradient(45deg,#ff69b4,#ff1493);
+color:white;
 font-size:18px;
-
+font-weight:bold;
 cursor:pointer;
-
-transition:.4s;
-
+box-shadow:0 0 15px rgba(255,105,180,.6);
+transition:.3s;
 }
 
 button:hover{
+transform:scale(1.08);
+box-shadow:0 0 25px rgba(255,105,180,.9);
+}
 
 transform:scale(1.1);
 
