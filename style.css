@@ -38,10 +38,12 @@ animation:fade 2s;
 }
 
 h1{
-font-family:Arial,sans-serif;
-font-size:100px;
-color:red;
-background:yellow;
+font-family:"Brush Script MT", "Segoe Script", cursive;
+font-size:70px;
+color:#ff4fa3;
+text-shadow:0 0 12px rgba(255,105,180,0.8);
+margin-bottom:20px;
+animation:float 3s infinite;
 }
 
 .subtitle{
