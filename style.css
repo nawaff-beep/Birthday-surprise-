@@ -38,12 +38,10 @@ animation:fade 2s;
 }
 
 h1{
-font-family:'Great Vibes', cursive;
-font-size:70px;
-color:#ff4fa3;
-text-shadow:0 0 12px rgba(255,105,180,0.8);
-margin-bottom:20px;
-animation:float 3s infinite;
+font-family:Arial,sans-serif;
+font-size:100px;
+color:red;
+background:yellow;
 }
 
 .subtitle{
